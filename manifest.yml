@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: prueba21
+  host: matech
+  disk_quota: 1024M
+  services:
+  - prueba21-cloudantNoSQLDB
+  - prueba21-iotf-service
+  - availability-monitoring-auto
